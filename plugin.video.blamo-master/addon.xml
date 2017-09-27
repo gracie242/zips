@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.blamo" version="2.3.1" name="Death Streams" provider-name="MR.Blamo">
     <requires>        
 		<import addon="xbmc.python" version="2.19.0"/>
