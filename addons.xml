@@ -117,7 +117,7 @@
         <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
         <platform>all</platform>
 	</extension>
-
+</addon>
 <addon id="plugin.video.thundercat" name="Blaze" version="0.0.1" provider-name="Gracie-ThunderCat">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -136,5 +136,5 @@
 		<video_preview></video_preview>
 	</extension>
 </addon>
-</addon>
+
 </addons>
