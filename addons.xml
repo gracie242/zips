@@ -72,14 +72,14 @@
 </addon>
 	
 
-<addon id="plugin.video.thundercat" name="Blaze" version="0.0.1" provider-name="Gracie-ThunderCat">
+<addon id="plugin.audio.thundercat" name="Blaze" version="0.0.2" provider-name="Gracie-ThunderCat">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
+		<provides>audio</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">MTV Style Addon</summary>
