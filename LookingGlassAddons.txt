@@ -1,6 +1,6 @@
 name="Blaze"
 plugin="plugin.audio.thundercat"
-url="https://raw.githubusercontent.com/gracie242/zips/master/plugin.audio.thundercat"
+url="https://raw.githubusercontent.com/gracie242/zips/master/plugin.audio.thundercat/"
 repository="repository.gracie242"
 repositoryxml="https://raw.githubusercontent.com/gracie242/zips/master/addons.xml"
 repositoryurl="https://raw.githubusercontent.com/gracie242/zips/master/repository.gracie242"
