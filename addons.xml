@@ -76,19 +76,21 @@
 	</extension>
 </addon>
 	
-<addon id="plugin.program.taquitz" name="Taquitz Wizard" version="1.0.0" provider-name="HWWTN">
+<addon id="plugin.program.LookingGlassWizard" name="[COLOR cyan]Looking Glass [COLOR magenta]Wizard[/COLOR]" version="1.8" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>program executable</provides>
+    <provides>program executable</provides>
   </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-		<summary lang="en">Welcome to the Taquitz Wizard</summary>
-		<description lang="en">This addon has builds and a fresh start.  Thanks to the KoDIY Team for the help</description>
-		<disclaimer lang="en">For help and support ... Twitter @HWWTN</disclaimer>
-		<platform>all</platform>
-	</extension>
+    <summary lang="en">Installer for [B][COLOR cyan]Looking Glass[/COLOR][/B] Builds</summary>
+    <description lang="en">This Wizard allows you to install the latest version of the [B][COLOR cyan]Looking Glass[/COLOR][/B] Community builds.  It also provides Maintenance, Tools and Tweaks sections to help you keep your Media Center running as smoothly as possible.</description>
+    <disclaimer lang="en">Follow me on Twitter at:  [B][COLOR cyan]@KleptoKodi[/COLOR][/B]</disclaimer>
+    <platform>all</platform>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
 </addon>
 	
 <addon id="plugin.audio.thundercat" name="Blaze" version="0.0.2" provider-name="Gracie-ThunderCat">
