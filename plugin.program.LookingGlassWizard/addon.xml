@@ -8,7 +8,7 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Installer for [COLOR cyan]Looking Glass[/COLOR] Builds</summary>
+    <summary lang="en">Installer for [COLOR cyan]Looking Glass[/COLOR] Team Builds</summary>
     <description lang="en">This Wizard allows you to install the latest version of the [B][COLOR cyan]Looking Glass[/COLOR][/B] Team builds.  It also provides Maintenance, Tools and Tweaks sections to help you keep your Media Center running as smoothly as possible.</description>
     <disclaimer lang="en">For support, follow me on Twitter at:  [B][COLOR cyan]@KleptoKodi[/COLOR][/B]</disclaimer>
     <platform>all</platform>
