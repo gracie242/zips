@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.LookingGlassWizard" name="[COLOR cyan]Looking Glass [COLOR magenta]Wizard[/COLOR]" version="1.8" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
+<addon id="plugin.program.LookingGlassWizard" name="[COLOR cyan]Looking Glass [COLOR magenta]Wizard[/COLOR]" version="1.9" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,9 +8,9 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Installer for [B][COLOR cyan]Looking Glass[/COLOR][/B] Builds</summary>
-    <description lang="en">This Wizard allows you to install the latest version of the [B][COLOR cyan]Looking Glass[/COLOR][/B] Community builds.  It also provides Maintenance, Tools and Tweaks sections to help you keep your Media Center running as smoothly as possible.</description>
-    <disclaimer lang="en">Follow me on Twitter at:  [B][COLOR cyan]@KleptoKodi[/COLOR][/B]</disclaimer>
+    <summary lang="en">Installer for [COLOR cyan]Looking Glass[/COLOR][/B] Builds</summary>
+    <description lang="en">This Wizard allows you to install the latest version of the [B][COLOR cyan]Looking Glass[/COLOR][/B] Team builds.  It also provides Maintenance, Tools and Tweaks sections to help you keep your Media Center running as smoothly as possible.</description>
+    <disclaimer lang="en">For support, follow me on Twitter at:  [B][COLOR cyan]@KleptoKodi[/COLOR][/B]</disclaimer>
     <platform>all</platform>
 	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
