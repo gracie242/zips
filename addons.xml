@@ -21,7 +21,48 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.goldencinema" name="[B][COLOR gold]Golden Cinema[/COLOR][/B]" version="2.1" provider-name="Gracie">
+<addon id="plugin.audio.thundercat" name="Blaze" version="0.0.2" provider-name="Gracie-ThunderCat">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">MTV Style Addon</summary>
+		<description lang="en">We do not host or own any content</description>
+		<platform>all</platform>
+		<genre>uk,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.fantasticbeasts" name="Fantastic Beasts" version="1.0.0" provider-name="ad">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Animal documentaries.</summary>
+		<description lang="en">Fantastic beasts is a compilation of animal documentaries found using YouTube. The developer does not own any of this content as it is readily available via YouTube. The developer is in no way, shape, or form associated or affiliated with Kodi.</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre>documentary,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.goldencinema" name="[B][COLOR gold]Golden Cinema[/COLOR][/B]" version="2.2" provider-name="Gracie">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver" />
@@ -32,25 +73,129 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Timeless Classics from The Golden Age</summary>
-    <description lang="en">Timeless Classics from The Golden Age</description>
+    <description lang="en">added 3 more sections</description>
 	<disclaimer lang="en">The author does not host or own any content found within this Addon. The Author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="plugin.video.serendipity" name="Serendipity" version="0.0.2" provider-name="Gracie">
+<addon id="plugin.video.hammertime" name="HammerTime" version="0.0.1" provider-name="Doggmatic71">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
-	</requires>	
+	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Assortment of Requested Items</summary>
-		<description lang="en">I do not own any of this content</description>
+		<summary lang="en">DIY Videos</summary>
+		<description lang="en"> All types of DIY and Makeover videos</description>
 		<platform>all</platform>
+		<genre>movies,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.highnoon" name="High Noon" version="0.0.2" provider-name="Gracie">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">All Western Content</summary>
+		<description lang="en">We do not own or host any content</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news></news>
+		<genre>western,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.kidzcorner" name="[COLORblue]Kidz Corner[/COLOR]" version="0.0.1" provider-name="56426">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">No Content Is Hosted,Any Issues With The Add-On Or You Want To Request Hit Me Up On Twitter</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news></news>
+		<genre>Kids</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+	
+<addon id="plugin.program.LookingGlassWizard" name="[COLOR cyan]Looking Glass [COLOR magenta]Wizard[/COLOR]" version="1.8" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Installer for [B][COLOR cyan]Looking Glass[/COLOR][/B] Builds</summary>
+    <description lang="en">This Wizard allows you to install the latest version of the [B][COLOR cyan]Looking Glass[/COLOR][/B] Community builds.  It also provides Maintenance, Tools and Tweaks sections to help you keep your Media Center running as smoothly as possible.</description>
+    <disclaimer lang="en">Follow me on Twitter at:  [B][COLOR cyan]@KleptoKodi[/COLOR][/B]</disclaimer>
+    <platform>all</platform>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+
+<addon id="plugin.video.critic" name="Movie Critics" version="0.0.1" provider-name="Taquitz">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Youtube movie critics</summary>
+    <description lang="en">.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.pipbeats" name="Pippy's Beats" version="0.0.2" provider-name="Gracie">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Music for Kids</summary>
+		<description lang="en">We do not own or host any content, Graces' daughter</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news></news>
+		<genre>kids,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
 	</extension>
 </addon>
 
@@ -75,59 +220,20 @@
 		<video_preview></video_preview>
 	</extension>
 </addon>
-	
-<addon id="plugin.program.LookingGlassWizard" name="[COLOR cyan]Looking Glass [COLOR magenta]Wizard[/COLOR]" version="1.9" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>program executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Installer for [COLOR cyan]Looking Glass[/COLOR] Team Builds</summary>
-    <description lang="en">This Wizard allows you to install the latest version of the [B][COLOR cyan]Looking Glass[/COLOR][/B] Team builds.  It also provides Maintenance, Tools and Tweaks sections to help you keep your Media Center running as smoothly as possible.</description>
-    <disclaimer lang="en">For support, follow me on Twitter at:  [B][COLOR cyan]@KleptoKodi[/COLOR][/B]</disclaimer>
-    <platform>all</platform>
-	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-  </extension>
-</addon>
-	
-<addon id="plugin.audio.thundercat" name="Blaze" version="0.0.3" provider-name="Gracie-ThunderCat">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
-        <import addon="script.module.python.koding.aio" version="0.0.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>audio</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">MTV Style Addon</summary>
-		<description lang="en">We do not host or own any content</description>
-		<platform>all</platform>
-		<genre>uk,usa</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-	</extension>
-</addon>
 
-<addon id="plugin.video.hammertime" name="HammerTime" version="0.0.1" provider-name="Doggmatic71">
+<addon id="plugin.video.serendipity" name="Serendipity" version="0.0.3" provider-name="Gracie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
-	</requires>
+	</requires>	
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">DIY Videos</summary>
-		<description lang="en"> All types of DIY and Makeover videos</description>
+		<summary lang="en">Assortment of Good and Fun</summary>
+		<description lang="en">I do not own any of this content</description>
 		<platform>all</platform>
-		<genre>movies,usa</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
 	</extension>
 </addon>
 
@@ -167,50 +273,6 @@
 		<website>www.noobsandnerds.com</website>
 		<news></news>
 		<genre>movies,tvshows,usa</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-	</extension>
-</addon>
-
-<addon id="plugin.video.pipbeats" name="Pippy's Beats" version="0.0.2" provider-name="Gracie">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
-        <import addon="script.module.python.koding.aio" version="0.0.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Music for Kids</summary>
-		<description lang="en">We do not own or host any content, Graces' daughter</description>
-		<platform>all</platform>
-		<forum></forum>
-		<website></website>
-		<news></news>
-		<genre>kids,usa</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-	</extension>
-</addon>
-
-<addon id="plugin.video.fantasticbeasts" name="Fantastic Beasts" version="1.0.0" provider-name="ad">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
-        <import addon="script.module.python.koding.aio" version="0.0.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Animal documentaries.</summary>
-		<description lang="en">Fantastic beasts is a compilation of animal documentaries found using YouTube. The developer does not own any of this content as it is readily available via YouTube. The developer is in no way, shape, or form associated or affiliated with Kodi.</description>
-		<platform>all</platform>
-		<forum>http://www.noobsandnerds.com/support</forum>
-		<website>www.noobsandnerds.com</website>
-		<news></news>
-		<genre>documentary,usa</genre>
 		<video_guide></video_guide>
 		<video_preview></video_preview>
 	</extension>
