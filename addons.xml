@@ -79,6 +79,28 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.grubhub" name="Grub Hub" version="0.0.2" provider-name="ThunderCat">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Food Porn</summary>
+		<description lang="en">We do not own or host any content</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news></news>
+		<genre>usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
 <addon id="plugin.video.hammertime" name="HammerTime" version="0.0.1" provider-name="Doggmatic71">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -142,7 +164,7 @@
 	</extension>
 </addon>
 	
-<addon id="plugin.program.LookingGlassWizard" name="[COLOR cyan]Looking Glass [COLOR magenta]Wizard[/COLOR]" version="2.0" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
+<addon id="plugin.program.LookingGlassWizard" name="[COLOR cyan]Looking Glass [COLOR magenta]Wizard[/COLOR]" version="2.1" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -151,7 +173,7 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Installer for [COLOR cyan]Looking Glass[/COLOR] Team Builds</summary>
+    <summary lang="en">Installer for [COLOR cyan]Looking Glass[/COLOR] Team and Community Builds</summary>
     <description lang="en">This Wizard allows you to install the latest version of builds from some members of the [B][COLOR cyan]Looking Glass[/COLOR][/B] Team as well as other builders in the Community.  It also provides Maintenance, Tools and Tweaks sections to help you keep your Media Center running as smoothly as possible.</description>
     <disclaimer lang="en">For support, follow me on Twitter at:  [B][COLOR magenta]@KleptoKodi[/COLOR][/B]</disclaimer>
     <platform>all</platform>
@@ -256,7 +278,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.tempus" name="Tempus" version="2.0.0" provider-name="ad">
+<addon id="plugin.video.tempus" name="Tempus" version="2.0.1" provider-name="ad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -272,7 +294,7 @@
 		<forum>http://www.noobsandnerds.com/support</forum>
 		<website>www.noobsandnerds.com</website>
 		<news></news>
-		<genre>movies,tvshows,usa</genre>
+		<genre>How to.</genre>
 		<video_guide></video_guide>
 		<video_preview></video_preview>
 	</extension>
