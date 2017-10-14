@@ -40,6 +40,73 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.Bucky" name="Bucky Movies" version="1.0" provider-name="Bucky">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Bucky Movies</summary>
+    <description lang="en">Movies</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.extreme" name="Extreme Sports" version="0.0.1" provider-name="Loose Cannon">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Adrenaline Junkies Apply</summary>
+		<description lang="en">Team Looking Glass/Gracie242</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<news></news>
+		<genre>extreme sports</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.faith" name="Faith" version="0.0.1" provider-name="Taquitz">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Religious movies and more</summary>
+    <description lang="en">.</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
 <addon id="plugin.video.fantasticbeasts" name="Fantastic Beasts" version="1.0.0" provider-name="ad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -164,7 +231,7 @@
 	</extension>
 </addon>
 	
-<addon id="plugin.program.LookingGlassWizard" name="[COLOR cyan]Looking Glass [COLOR magenta]Wizard[/COLOR]" version="2.1" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
+<addon id="plugin.program.LookingGlassWizard" name="[COLOR cyan]Looking Glass [COLOR magenta]Wizard[/COLOR]" version="2.2" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -221,7 +288,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.pip" name="Pippy's Picks" version="0.0.2" provider-name="Gracie">
+<addon id="plugin.video.pip" name="Pippy's Picks" version="0.0.3" provider-name="Gracie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -231,13 +298,32 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Gaming and laughter</summary>
-		<description lang="en">We do not own or host any content, Graces' daughter</description>
+		<summary lang="en">Gaming and laughter Ages 6 and up</summary>
+		<description lang="en">We do not own or host any content, Graces' Daughter</description>
 		<platform>all</platform>
 		<forum></forum>
 		<website></website>
 		<news></news>
 		<genre>humor,kids,gaming,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.polaris" name="Polaris" version="0.0.1" provider-name="DA Hawaiian">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">A Mixture of Ideas</summary>
+		<description lang="en">We do not host or own any content</description>
+		<platform>all</platform>
+		<genre>uk,usa</genre>
 		<video_guide></video_guide>
 		<video_preview></video_preview>
 	</extension>
