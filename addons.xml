@@ -71,7 +71,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.extreme" name="Extreme Sports" version="0.0.1" provider-name="Loose Cannon">
+<addon id="plugin.video.extreme" name="Extreme Sports" version="0.0.2" provider-name="Loose Cannon">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -270,7 +270,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.pipbeats" name="Pippy's Beats" version="0.0.2" provider-name="Gracie">
+<addon id="plugin.video.pipbeats" name="Pippy's Beats" version="0.0.3" provider-name="Gracie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -314,7 +314,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.polaris" name="Polaris" version="0.0.1" provider-name="DA Hawaiian">
+<addon id="plugin.video.polaris" name="Polaris" version="0.0.2" provider-name="DA Hawaiian">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -328,6 +328,24 @@
 		<description lang="en">We do not host or own any content</description>
 		<platform>all</platform>
 		<genre>uk,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+	
+<addon id="plugin.video.seemybearbass" name="See My Bear Bass" version="0.0.1" provider-name="Doggmatic71">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Hunting and Fishing Videos</summary>
+		<description lang="en"> All types of Hunting and Fishing videos</description>
+		<platform>all</platform>
+		<genre>movies,usa</genre>
 		<video_guide></video_guide>
 		<video_preview></video_preview>
 	</extension>
@@ -349,7 +367,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.shocker" name="Shocker" version="0.0.2" provider-name="Skeletor">
+<addon id="plugin.video.shocker" name="Shocker" version="0.0.3" provider-name="Skeletor">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -360,7 +378,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Favorite Finds</summary>
-		<description lang="en">We do not own or host any content #gracie242 #teamlookingglass</description>
+		<description lang="en">We do not own or host any content#gracie242 #teamlookingglass</description>
 		<platform>all</platform>
 		<genre>movies,humor,usa</genre>
 		<video_guide></video_guide>
@@ -385,6 +403,28 @@
 		<website>www.noobsandnerds.com</website>
 		<news></news>
 		<genre>How to.</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="plugin.video.tempusmovies" name="Tempus Movies" version="1.0.0" provider-name="ad">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Seasonal Movies</summary>
+		<description lang="en">Movies for each season. The developer does not own any of the content within this addon. The developer is in no way, shape, or form affiliated or associated with XBMC or Kodi.</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre>movies,usa</genre>
 		<video_guide></video_guide>
 		<video_preview></video_preview>
 	</extension>
