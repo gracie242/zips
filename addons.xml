@@ -300,6 +300,7 @@
 		<video_guide></video_guide>
 		<video_preview></video_preview>
 	</extension>
+</addon>
 	
 <addon id="plugin.video.seemybearbass" name="See My Bear Bass" version="0.0.1" provider-name="Doggmatic71">
 	<requires>
