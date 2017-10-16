@@ -283,7 +283,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.polaris" name="Polaris" version="0.0.2" provider-name="DA Hawaiian">
+<addon id="plugin.video.polaris" name="Polaris" version="0.0.3" provider-name="DA Hawaiian">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -337,7 +337,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.shocker" name="Shocker" version="0.0.3" provider-name="Skeletor">
+<addon id="plugin.video.shocker" name="Shocker" version="0.0.4" provider-name="Skeletor">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -348,7 +348,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Favorite Finds</summary>
-		<description lang="en">We do not own or host any content#gracie242 #teamlookingglass</description>
+		<description lang="en">We do not own or host any content #lookingglass</description>
 		<platform>all</platform>
 		<genre>movies,humor,usa</genre>
 		<video_guide></video_guide>
