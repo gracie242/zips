@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.faith" name="Faith" version="0.0.1" provider-name="Taquitz">
+<addon id="plugin.video.faith"
+	name="Faith"
+	version="0.0.2"
+	provider-name="Taquitz">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
