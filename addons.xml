@@ -207,6 +207,26 @@
 		<video_preview></video_preview>
 	</extension>
 </addon>
+
+<addon id="plugin.video.knockout" name="Knock Out" version="0.0.1" provider-name="Gracie242">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.nanscrapers" version="0.5.5" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">A compile of every boxing match since early 1900's</summary>
+		<description lang="en">A boxing fans dream</description>
+		<platform>all</platform>
+		<news></news>
+		<genre>sports,usa</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
 	
 <addon id="plugin.program.LookingGlassWizard" name="[COLOR cyan]Looking Glass [COLOR magenta]Wizard[/COLOR]" version="2.3" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
   <requires>
@@ -287,7 +307,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.polaris" name="Polaris" version="1.1" provider-name="DA Hawaiian">
+<addon id="plugin.video.polaris" name="Polaris" version="0.0.3" provider-name="DA Hawaiian">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -382,7 +402,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.tempusmovies" name="Tempus Movies" version="1.0.1" provider-name="ad">
+<addon id="plugin.video.tempusmovies" name="Tempus Movies" version="1.0.2" provider-name="ad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
