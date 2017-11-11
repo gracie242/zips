@@ -21,6 +21,23 @@
 	</extension>
 </addon>
 
+<addon id="plugin.program.LookingGlassWizard" name="[COLOR cyan]Looking Glass [COLOR magenta]Wizard[/COLOR]" version="2.6" provider-name="[B][I][COLOR magenta]Klepton[/COLOR][/I][/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Installer for [COLOR cyan]Looking Glass[/COLOR] Team and Community Builds</summary>
+    <description lang="en">This Wizard allows you to install the latest version of builds from some members of the [B][COLOR cyan]Looking Glass[/COLOR][/B] Team as well as other builders in the Community.  It also provides Maintenance, Tools and Tweaks sections to help you keep your Media Center running as smoothly as possible.</description>
+    <disclaimer lang="en">For support, follow me on Twitter at:  [B][COLOR magenta]@KleptoKodi[/COLOR][/B]</disclaimer>
+    <platform>all</platform>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+
 <addon id="plugin.audio.thundercat" name="Blaze" version="0.0.3" provider-name="Gracie-ThunderCat">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
