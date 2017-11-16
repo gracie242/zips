@@ -518,4 +518,39 @@
 	</extension>
 </addon>
 
+<addon id="plugin.video.fitnesszone" name="Fitness Zone" version="0.0.2" provider-name="MuadDib">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Top fitness videos and programs from around the net all in one place</summary>
+    <description lang="en">Top fitness videos and programs from around the net all in one place</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.kidsnation" name="Kids Nation" version="0.0.2" provider-name="MuadDib">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Top content aimed at learning and development for children.</summary>
+    <description lang="en">No Content Is Hosted By Us. Any Issues With The Add-On Or You Have A Request Hit Me Up On Twitter</description>
+    <disclaimer lang="en"></disclaimer>
+    <genre>kids</genre>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 </addons>
