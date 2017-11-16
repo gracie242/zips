@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 	
-<addon id="repository.gracie242" name="gracie242" version="0.0.2" provider-name="Gracie">
+<addon id="repository.gracie242" name="[COLOR cyan]g[/COLOR][COLOR magenta]racie242[/COLOR]" version="0.0.2" provider-name="Gracie">
 	<extension point="xbmc.addon.repository" name="gracie242">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -38,7 +38,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.audio.thundercat" name="Blaze" version="0.0.3" provider-name="Gracie-ThunderCat">
+<addon id="plugin.audio.thundercat" name="[COLOR cyan]B[/COLOR][COLOR magenta]laze[/COLOR]" version="0.0.3" provider-name="Gracie-ThunderCat">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -57,7 +57,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.extreme" name="Extreme Sports" version="0.0.3" provider-name="Loose Cannon">
+<addon id="plugin.video.extreme" name="[COLOR cyan]E[/COLOR][COLOR magenta]xtreme[/COLOR] [COLOR cyan]S[/COLOR][COLOR magenta]ports[/COLOR]" version="0.0.3" provider-name="Loose Cannon">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -81,7 +81,7 @@
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.faith"
-	name="Faith"
+	name="[COLOR cyan]F[/COLOR][COLOR magenta]aith[/COLOR]"
 	version="0.0.2"
 	provider-name="Taquitz">
   <requires>
@@ -101,7 +101,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.fantasticbeasts" name="Fantastic Beasts" version="1.0.0" provider-name="ad">
+<addon id="plugin.video.fantasticbeasts" name="[COLOR cyan]F[/COLOR][COLOR magenta]antastic[/COLOR] [COLOR cyan]B[/COLOR][COLOR magenta]easts[/COLOR]" version="1.0.0" provider-name="ad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -140,7 +140,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.grubhub" name="Grub Hub" version="0.0.2" provider-name="ThunderCat">
+<addon id="plugin.video.grubhub" name="[COLOR cyan]G[/COLOR][COLOR magenta]rub[/COLOR] [COLOR cyan]H[/COLOR][COLOR magenta]ub[/COLOR]" version="0.0.2" provider-name="ThunderCat">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -162,7 +162,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.hammertime" name="HammerTime" version="0.0.1" provider-name="Doggmatic71">
+<addon id="plugin.video.hammertime" name="[COLOR cyan]H[/COLOR][COLOR magenta]ammerTime[/COLOR]" version="0.0.1" provider-name="Doggmatic71">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -181,7 +181,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.highnoon" name="High Noon" version="0.0.2" provider-name="Gracie">
+<addon id="plugin.video.highnoon" name="[COLOR cyan]H[/COLOR][COLOR magenta]igh[/COLOR] [COLOR cyan]N[/COLOR][COLOR magenta]oon[/COLOR]" version="0.0.2" provider-name="Gracie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -203,7 +203,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.kidzcorner" name="Kidz Corner" version="0.0.1" provider-name="56426">
+<addon id="plugin.video.kidzcorner" name="[COLOR cyan]K[/COLOR][COLOR magenta]idz[/COLOR] [COLOR cyan]C[/COLOR][COLOR magenta]orner[/COLOR]" version="0.0.1" provider-name="56426">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -225,7 +225,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.knockout" name="Knock Out" version="0.0.1" provider-name="Gracie242">
+<addon id="plugin.video.knockout" name="[COLOR cyan]K[/COLOR][COLOR magenta]nock[/COLOR] [COLOR cyan]O[/COLOR][COLOR magenta]ut[/COLOR]" version="0.0.1" provider-name="Gracie242">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -245,7 +245,7 @@
 	</extension>
 </addon>
 	
-<addon id="plugin.video.critic" name="Movie Critics" version="0.0.1" provider-name="Taquitz">
+<addon id="plugin.video.critic" name="[COLOR cyan]M[/COLOR][COLOR magenta]ovie[/COLOR] [COLOR cyan]C[/COLOR][COLOR magenta]ritics[/COLOR]" version="0.0.1" provider-name="Taquitz">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
     <import addon="script.module.addon.common" version="2.0.0"/>
@@ -263,7 +263,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.pipbeats" name="Pippy's Beats" version="0.0.3" provider-name="Gracie">
+<addon id="plugin.video.pipbeats" name="[COLOR cyan]P[/COLOR][COLOR magenta]ippy's[/COLOR] [COLOR cyan]B[/COLOR][COLOR magenta]eats[/COLOR]" version="0.0.3" provider-name="Gracie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -285,7 +285,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.pip" name="Pippy's Picks" version="0.0.3" provider-name="Gracie">
+<addon id="plugin.video.pip" name="[COLOR cyan]P[/COLOR][COLOR magenta]ippy's[/COLOR] [COLOR cyan]P[/COLOR][COLOR magenta]icks[/COLOR]" version="0.0.3" provider-name="Gracie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -307,7 +307,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.polaris" name="Polaris" version="1.2" provider-name="DA Hawaiian">
+<addon id="plugin.video.polaris" name="[COLOR cyan]P[/COLOR][COLOR magenta]olaris[/COLOR]" version="1.2" provider-name="DA Hawaiian">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -326,7 +326,7 @@
 	</extension>
 </addon>
 	
-<addon id="plugin.video.seemybearbass" name="See My Bear Bass" version="0.0.1" provider-name="Doggmatic71">
+<addon id="plugin.video.seemybearbass" name="[COLOR cyan]S[/COLOR][COLOR magenta]ee[/COLOR] [COLOR cyan]M[/COLOR][COLOR magenta]y[/COLOR] [COLOR cyan]B[/COLOR][COLOR magenta]ear[/COLOR] [COLOR cyan]B[/COLOR][COLOR magenta]ass[/COLOR]" version="0.0.1" provider-name="Doggmatic71">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -345,7 +345,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.serendipity" name="Serendipity" version="0.0.3" provider-name="Gracie">
+<addon id="plugin.video.serendipity" name="[COLOR cyan]S[/COLOR][COLOR magenta]erendipity[/COLOR]" version="0.0.3" provider-name="Gracie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -361,7 +361,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.shocker" name="Shocker" version="0.0.4" provider-name="Skeletor">
+<addon id="plugin.video.shocker" name="[COLOR cyan]S[/COLOR][COLOR magenta]hocker[/COLOR]" version="0.0.4" provider-name="Skeletor">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -380,7 +380,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.tempus" name="Tempus" version="2.0.1" provider-name="ad">
+<addon id="plugin.video.tempus" name="[COLOR cyan]T[/COLOR][COLOR magenta]empus[/COLOR]" version="2.0.1" provider-name="ad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -402,7 +402,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.tempusmovies" name="Tempus Movies" version="1.0.3" provider-name="ad">
+<addon id="plugin.video.tempusmovies" name="[COLOR cyan]T[/COLOR][COLOR magenta]empus[/COLOR] [COLOR cyan]M[/COLOR][COLOR magenta]ovies[/COLOR]" version="1.0.3" provider-name="ad">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -424,7 +424,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.wilderness" name="Xtreme Wilderness " version="0.0.1" provider-name="Loose Cannon">
+<addon id="plugin.video.wilderness" name="[COLOR cyan]X[/COLOR][COLOR magenta]treme[/COLOR] [COLOR cyan]W[/COLOR][COLOR magenta]ilderness[/COLOR]" version="0.0.1" provider-name="Loose Cannon">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -446,7 +446,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.blamo" version="2.3.7" name="Death Streams" provider-name="MR.Blamo">
+<addon id="plugin.video.blamo" version="2.3.7" name="[COLOR cyan]D[/COLOR][COLOR magenta]eath[/COLOR] [COLOR cyan]S[/COLOR][COLOR magenta]treams[/COLOR]" provider-name="MR.Blamo">
     <requires>        
 		<import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.pyxbmct" version="1.1.4"/>
@@ -476,7 +476,7 @@
 	</extension>
 </addon>
 
-<addon id="script.deaths.themepak" version="0.0.14" name="DS Themepak" provider-name="MR Blamo">
+<addon id="script.deaths.themepak" version="0.0.14" name="[COLOR cyan]DS[/COLOR] [COLOR cyan]T[/COLOR][COLOR magenta]hemepak[/COLOR]" provider-name="MR Blamo">
     <requires>
         <import addon="kodi.resource" version="1.0.0"/>
     </requires>
@@ -518,7 +518,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.fitnesszone" name="Fitness Zone" version="0.0.2" provider-name="MuadDib">
+<addon id="plugin.video.fitnesszone" name="[COLOR cyan]F[/COLOR][COLOR magenta]itness[/COLOR] [COLOR cyan]Z[/COLOR][COLOR magenta]one[/COLOR]" version="0.0.2" provider-name="MuadDib">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube"/>
@@ -535,7 +535,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.kidsnation" name="Kids Nation" version="0.0.2" provider-name="MuadDib">
+<addon id="plugin.video.kidsnation" name="[COLOR cyan]K[/COLOR][COLOR magenta]ids[/COLOR] [COLOR cyan]N[/COLOR][COLOR magenta]ation[/COLOR]" version="0.0.2" provider-name="MuadDib">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube"/>
