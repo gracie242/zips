@@ -181,7 +181,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.highnoon" name="[COLOR cyan]H[/COLOR][COLOR magenta]igh[/COLOR] [COLOR cyan]N[/COLOR][COLOR magenta]oon[/COLOR]" version="0.0.2" provider-name="Gracie">
+<addon id="plugin.video.highnoon" name="[COLOR cyan]H[/COLOR][COLOR magenta]igh[/COLOR] [COLOR cyan]N[/COLOR][COLOR magenta]oon[/COLOR]" version="0.0.3" provider-name="Gracie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -345,7 +345,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.serendipity" name="[COLOR cyan]S[/COLOR][COLOR magenta]erendipity[/COLOR]" version="0.0.3" provider-name="Gracie">
+<addon id="plugin.video.serendipity" name="[COLOR cyan]S[/COLOR][COLOR magenta]erendipity[/COLOR]" version="0.0.4" provider-name="Gracie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
