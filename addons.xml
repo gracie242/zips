@@ -263,7 +263,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.motorreplays" name="[COLORorange]Motor Replays[/COLOR]" version="2.7" provider-name="@Aleighty80">
+<addon id="plugin.video.motorreplays" name="[COLOR cyan]M[/COLOR][COLOR magenta]otor[/COLOR] [COLOR cyan]R[/COLOR][COLOR magenta]eplays[/COLOR]" version="2.7" provider-name="@Aleighty80">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
