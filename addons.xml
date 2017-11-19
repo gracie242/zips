@@ -400,7 +400,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.tempusreborn" name="Tempus Reborn" version="1.0" provider-name="ad, midraal">
+<addon id="plugin.video.tempusreborn" name="[COLOR cyan]T[/COLOR][COLOR magenta]empus[/COLOR] [COLOR cyan]R[/COLOR][COLOR magenta]eborn[/COLOR]" version="1.0" provider-name="ad, midraal">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.nanscrapers" version="0.5.5" />
