@@ -38,7 +38,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.audio.thundercat" name="[COLOR cyan]B[/COLOR][COLOR magenta]laze[/COLOR]" version="0.0.3" provider-name="Gracie-ThunderCat">
+<addon id="plugin.audio.thundercat" name="[COLOR cyan]B[/COLOR][COLOR magenta]laze[/COLOR]" version="0.0.4" provider-name="Gracie-ThunderCat">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
