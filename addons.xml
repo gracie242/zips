@@ -478,7 +478,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.kidsnation" name="[COLOR cyan]K[/COLOR][COLOR magenta]ids[/COLOR] [COLOR cyan]N[/COLOR][COLOR magenta]ation[/COLOR]" version="0.0.2" provider-name="MuadDib">
+<addon id="plugin.video.kidsnation" name="[COLOR cyan]K[/COLOR][COLOR magenta]ids[/COLOR] [COLOR cyan]N[/COLOR][COLOR magenta]ation[/COLOR]" version="0.0.2a" provider-name="MuadDib">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube"/>
@@ -495,7 +495,6 @@
     <platform>all</platform>
   </extension>
 </addon>
-
 <addon id="script.module.ytpsearch" name="YouTube Playlist Search" version="0.0.1" provider-name="MuadDib">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
