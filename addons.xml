@@ -204,28 +204,6 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.kidzcorner" name="[COLOR cyan]K[/COLOR][COLOR magenta]idz[/COLOR] [COLOR cyan]C[/COLOR][COLOR magenta]orner[/COLOR]" version="0.0.1" provider-name="56426">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.nanscrapers" version="0.5.5" />
-        <import addon="script.module.python.koding.aio" version="0.0.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">A collection of new and old school cartoons</summary>
-		<description lang="en">No Content Is Hosted,Any Issues With The Add-On Or You Want To Request Hit Me Up On Twitter</description>
-		<platform>all</platform>
-		<forum></forum>
-		<website></website>
-		<news></news>
-		<genre>Kids</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-	</extension>
-</addon>
-
 <addon id="plugin.video.knockout" name="[COLOR cyan]K[/COLOR][COLOR magenta]nock[/COLOR] [COLOR cyan]O[/COLOR][COLOR magenta]ut[/COLOR]" version="0.0.1" provider-name="Gracie242">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
