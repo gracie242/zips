@@ -461,7 +461,7 @@
 	</extension>
 </addon>	
 
-<addon id="plugin.video.fitnesszone" name="[COLOR cyan]F[/COLOR][COLOR magenta]itness[/COLOR] [COLOR cyan]Z[/COLOR][COLOR magenta]one[/COLOR]" version="0.0.2a" provider-name="MuadDib">
+<addon id="plugin.video.fitnesszone" name="[COLOR cyan]F[/COLOR][COLOR magenta]itness[/COLOR] [COLOR cyan]Z[/COLOR][COLOR magenta]one[/COLOR]" version="0.0.3" provider-name="MuadDib">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube"/>
@@ -478,7 +478,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.kidsnation" name="[COLOR cyan]K[/COLOR][COLOR magenta]ids[/COLOR] [COLOR cyan]N[/COLOR][COLOR magenta]ation[/COLOR]" version="0.0.2a" provider-name="MuadDib">
+<addon id="plugin.video.kidsnation" name="[COLOR cyan]K[/COLOR][COLOR magenta]ids[/COLOR] [COLOR cyan]N[/COLOR][COLOR magenta]ation[/COLOR]" version="0.0.3" provider-name="MuadDib">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube"/>
